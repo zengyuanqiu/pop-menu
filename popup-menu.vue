@@ -38,7 +38,6 @@
 		
 		methods: {
 			hideMenu() {
-				this.isShow = false;
 				this.$emit('changeShowVal')
 			}
 		},

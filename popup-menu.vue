@@ -60,7 +60,7 @@
 					border-bottom-color:${this.bgColor};
 					border-top-width:0;`
 			}else {
-				menu.style.bottom = top + 6 + 'px';
+				menu.style.bottom = centerY * 2 - top + 6 + 'px';
 				arrow.style.cssText = `bottom:-5px;
 					border-top-color:${this.bgColor};
 					border-bottom-width:0;`

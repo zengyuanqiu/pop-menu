@@ -1,6 +1,6 @@
 # pop-menu
 
-<popup-menu slot='right' 
+`<popup-menu slot='right' 
 	bgColor='#49484B' 
   :isShow='popupShow'
   @changeShowVal='popupShow=false'>
@@ -10,8 +10,8 @@
     <li class='menu-item'>添加好友</li>
     <li class='menu-item'>设置</li>
   </ul>
-</popup-menu>
+</popup-menu>`
 
-bgColor: 背景色（string) 默认白色
-isShow: 显示/隐藏 默认false
+bgColor: 背景色（string) 默认白色<br>
+isShow: 显示/隐藏 默认false<br>
 @changeShowVal: 通知父组件改变了popupShow的值为false

@@ -16,4 +16,4 @@
 ```
 bgColor: 背景色（string) 默认白色<br>
 isShow: 显示/隐藏 默认false<br>
-@changeShowVal: 通知父组件改变了popupShow的值为false
+@changeShowVal: 子组件要想关闭菜单让父组件把值设为false
